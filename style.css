@@ -1,1 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body{
+    background: #eee;
+    border:#eee;
+    box-shadow:#ddd;
+}
+div{
+    width: 700px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow:#ddd;
+    margin: auto;
+    padding: 15px;
+    color:black;
+    font-family: 'Source Sans Pro';    
+}
+h1{
+    text-align: center;
+    font-family: 'Abril Fatface';
+}
+h2{
+    font-family: 'Roboto Slab';
+}
+h4{
+    font-family: 'Roboto Slab';
+}
+h5{
+    color:red;
+}
+ul{
+    list-style: none;
+    border-top:2px solid gray;
+    border-bottom:1px solid gray; 
+    
+}
+li{
+    margin:center;
+    display:inline-block;
+    padding:5px; 
+    font-size: 13px;      
+}
+p{
+    text-align:justify;   
+}
+.p1{
+    border-bottom:1px solid gray;
+    padding-bottom:15px
+}
+.p2{
+    text-align:justify;  
+    padding-left: 25px;
+    padding-right:25px;
+    
+}
+.p3{
+    text-align:justify; 
+    padding-left:25px;
+    padding-right:25px;  
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color:purple;
+}
+.laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align:center;
+  }
+  .more-articles {
+    display: flex;
+    text-align:center;
+  }
+  .column {
+    padding: 5px;
+    text-align:
+  }
+  a.foot{  
+    display:inline-block;
+    padding:0px 25px 0px 25px;
+    font-size: 13px; 
+  }
