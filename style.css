@@ -14,6 +14,11 @@ div{
     color:black;
     font-family: 'Source Sans Pro';    
 }
+div.date{
+    width:500px;
+    margin: 0;
+    text-align: left;
+}
 h1{
     text-align: center;
     font-family: 'Abril Fatface';
@@ -70,9 +75,11 @@ a:hover{
     width: 100%;
     text-align:center;
   }
-  .more-articles {
+  div.more-articles {
     display: flex;
     text-align:center;
+    width:500px;
+    margin:8px;
   }
   .column {
     padding: 5px;
